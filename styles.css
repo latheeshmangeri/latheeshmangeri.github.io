@@ -81,7 +81,6 @@ section {
 
 #skills {
     background-color: #444;
-    margin-top: 50px;
 }
 
 #projects {
@@ -113,7 +112,7 @@ footer {
 }
 
 .skills-table td {
-    padding: 3px;
+    padding: 1px;
 }
 
 .skills-table b {
