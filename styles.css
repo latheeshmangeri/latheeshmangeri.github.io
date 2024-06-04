@@ -113,8 +113,7 @@ footer {
 
 
 .skills-table {
-    border-collapse: separate;
-    margin-left: 20px;
+    border-collapse: collapse;
 }
 
 .skills-table td {
