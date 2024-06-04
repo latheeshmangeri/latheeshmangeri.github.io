@@ -109,6 +109,7 @@ footer {
 
 .skills-table {
     border-collapse: collapse;
+    margin-top: 20px;
 }
 
 .skills-table td {
