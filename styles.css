@@ -112,12 +112,26 @@ footer {
 }
 
 
+.skills-container {
+    margin: 0 auto; /* Center the table horizontally */
+}
+
 .skills-table {
-    border-collapse: collapse;
+    border-collapse: separate;
+    border-spacing: 0 10px; /* Adjust the vertical spacing as needed */
 }
 
 .skills-table td {
-    padding: 10px;
+    padding: 8px;
+    border-top: none; /* Remove top border */
+}
+
+.skills-table tr:first-child td {
+    border-top: none; /* Remove top border from the first row */
+}
+
+.skills-table tr:last-child td {
+    border-bottom: none; /* Remove bottom border from the last row */
 }
 
 .skills-table b {
@@ -126,8 +140,4 @@ footer {
 
 .skills-table td:nth-child(2) {
     color: #ffffff; /* White color */
-}
-
-.skills-container {
-    margin: 0 auto; /* Center the table horizontally */
 }
