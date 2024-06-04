@@ -9,7 +9,7 @@ body {
 header {
     background: linear-gradient(to right, #8e2de2, #4a00e0);
     color: #fff;
-    padding: 2em;
+    padding: 1em;
     text-align: center;
     border-radius: 8px;
 }
@@ -32,13 +32,16 @@ header h1 {
     font-size: 2.5em;
 }
 
+nav {
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
 nav ul {
     list-style: none;
     padding: 0;
-    text-align: center;
-    background: #fff;
     margin: 0;
-    border-bottom: 1px solid #ccc;
+    text-align: center;
 }
 
 nav ul li {
@@ -50,6 +53,13 @@ nav ul li a {
     text-decoration: none;
     color: #333;
     font-weight: bold;
+    padding: 1em;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background: #f0f0f0;
+    border-radius: 8px;
 }
 
 main {
@@ -58,6 +68,25 @@ main {
 
 section {
     margin: 2em 0;
+    border-radius: 8px;
+    padding: 1em;
+    color: #fff;
+}
+
+#bio {
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+}
+
+#contact {
+    background: linear-gradient(to right, #ffb347, #ffcc33);
+}
+
+#skills {
+    background: linear-gradient(to right, #00f260, #0575e6);
+}
+
+#projects {
+    background: linear-gradient(to right, #e1eec3, #f05053);
 }
 
 .skills-container {
