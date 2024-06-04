@@ -105,14 +105,9 @@ section {
 .skill p {
     margin: 0;
     color: #ffffff;
-    width: 100px; /* Adjust width as needed */
 }
 
-p {
-    margin: 0;
-    color: #ffffff;
-    width: 100px; /* Adjust width as needed */
-}
+
 
 .progress-bar {
     height: 20px; /* Adjust height as needed */
