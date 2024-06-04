@@ -77,18 +77,22 @@ section {
 
 #bio {
     background-color: #333;
+    border: 3px solid #ff9800;
 }
 
 #skills {
     background-color: #444;
+    border: 3px solid #ff9800;
 }
 
 #projects {
     background-color: #555;
+    border: 3px solid #ff9800;
 }
 
 #contact {
     background-color: #666;
+    border: 3px solid #ff9800;
 }
 
 p {
