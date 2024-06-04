@@ -93,7 +93,8 @@ section {
 #contact {
     background-color: #666;
     border: 1px solid #ff9800;
-    margin: auto;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
 p {
