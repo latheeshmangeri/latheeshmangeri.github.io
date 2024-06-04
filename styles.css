@@ -22,8 +22,8 @@ header {
 
 .profile-pic {
     border-radius: 50%;
-    width: 60px; /* Smaller profile picture */
-    height: 60px;
+    width: 80px; /* Smaller profile picture */
+    height: 80px;
     margin-right: 20px;
 }
 
