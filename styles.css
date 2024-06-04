@@ -105,6 +105,7 @@ section {
 p {
     color: #ffffff;
     width: 200px; /* Adjust width as needed */
+    display: inline;
 }
 
 
@@ -128,4 +129,5 @@ footer {
     color: #ff9800;
     padding: 1em;
     border-top: 1px solid #ff9800;
+    display: inline;
 }
