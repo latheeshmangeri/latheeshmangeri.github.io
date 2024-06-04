@@ -107,41 +107,18 @@ footer {
 }
 
 
-
 .skills-table {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    border-collapse: collapse;
 }
 
-.row {
-    display: flex;
-    margin-bottom: 15px;
+.skills-table td {
+    padding: 8px;
 }
 
-.label {
-    width: 150px;
-    font-weight: bold;
+.skills-table b {
+    color: #ff9800; /* Orange color */
 }
 
-.value {
-    margin-left: 10px;
-}
-
-/* Creative styling */
-
-.row:nth-child(odd) {
-    background-color: #f3f3f3;
-    border-radius: 10px;
-    padding: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    transform: rotate(-1deg);
-}
-
-.row:nth-child(even) {
-    background-color: #eaeaea;
-    border-radius: 10px;
-    padding: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    transform: rotate(1deg);
+.skills-table td:nth-child(2) {
+    color: #ffffff; /* White color */
 }
