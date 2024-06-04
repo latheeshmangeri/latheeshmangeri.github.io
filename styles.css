@@ -91,37 +91,12 @@ section {
     background-color: #666;
 }
 
-.skills-container {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.skill {
-    display: flex;
-    margin-bottom: 20px;
-}
-
 p {
     color: #ffffff;
     width: 200px; /* Adjust width as needed */
     display: inline;
 }
 
-
-
-.progress-bar {
-    height: 20px; /* Adjust height as needed */
-    background-color: #00ff00;
-    border-radius: 5px;
-    margin-left: 10px;
-}
-
-.progress-fill {
-    height: 100%;
-    border-radius: 5px;
-    background-color: #ff9800; /* Orange color */
-}
 
 footer {
     background-color: #1e1e1e;
