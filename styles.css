@@ -6,11 +6,17 @@ body {
     color: #333;
 }
 
+header, section, footer {
+    padding: 2em;
+    border-radius: 8px;
+    margin: 1em auto;
+    max-width: 800px;
+    color: #fff;
+}
+
 header {
+    background: linear-gradient(to right, #8e2de2, #4a00e0);
     text-align: center;
-    padding: 2em 0;
-    background: rgba(255, 255, 255, 0.9);
-    margin-bottom: 1em;
 }
 
 header h1 {
@@ -22,30 +28,51 @@ header p {
     font-size: 1.2em;
 }
 
-section {
-    padding: 1em 2em;
-    background: rgba(255, 255, 255, 0.8);
-    margin: 1em auto;
-    border-radius: 8px;
-    max-width: 800px;
+#bio {
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+}
+
+#contact {
+    background: linear-gradient(to right, #ff512f, #dd2476);
+}
+
+#skills {
+    background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+}
+
+#projects {
+    background: linear-gradient(to right, #c94b4b, #4b134f);
 }
 
 h2 {
-    color: #ff7e5f;
+    color: #fff;
 }
 
-ul {
-    list-style-type: none;
-    padding: 0;
+.skill {
+    margin-bottom: 1em;
 }
 
-ul li {
-    margin: 0.5em 0;
+.skill p {
+    margin: 0;
+    font-size: 1.1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.progress-bar {
+    background: #ccc;
+    border-radius: 25px;
+    overflow: hidden;
+    height: 20px;
+}
+
+.progress {
+    background: #4caf50;
+    height: 100%;
 }
 
 footer {
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
     text-align: center;
-    padding: 1em 0;
-    background: rgba(255, 255, 255, 0.9);
-    margin-top: 2em;
+    color: #fff;
 }
