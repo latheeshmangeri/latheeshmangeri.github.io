@@ -15,7 +15,7 @@ header {
 }
 
 .header-content {
-    display: table-cell;
+    display: flex;
     align-items: center;
     justify-content: center;
 }
@@ -98,19 +98,19 @@ section {
 
 .skill {
     display: flex;
-    align-items: center;
     margin-bottom: 20px;
 }
 
-.skill p {
+p {
     color: #ffffff;
+    width: 100px; /* Adjust width as needed */
 }
 
 
 
 .progress-bar {
     height: 20px; /* Adjust height as needed */
-    background-color: #222;
+    background-color: #00ff00;
     border-radius: 5px;
     margin-left: 10px;
 }
