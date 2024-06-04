@@ -115,7 +115,6 @@ footer {
 .skills-table {
     border-collapse: separate;
     margin-left: 20px;
-    align-self: center;
 }
 
 .skills-table td {
@@ -128,4 +127,8 @@ footer {
 
 .skills-table td:nth-child(2) {
     color: #ffffff; /* White color */
+}
+
+.skills-container {
+    margin: 0 auto; /* Center the table horizontally */
 }
