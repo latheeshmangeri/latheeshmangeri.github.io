@@ -93,6 +93,7 @@ section {
 #contact {
     background-color: #666;
     border: 1px solid #ff9800;
+    margin-inline: 50px;
 }
 
 p {
@@ -112,7 +113,7 @@ footer {
 
 
 .skills-table {
-    border-collapse: collapse;
+    border-collapse: separate;
     margin-left: 20px;
 }
 
