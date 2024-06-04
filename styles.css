@@ -25,6 +25,7 @@ header {
     width: 150px; /* Smaller profile picture */
     height: 150px;
     margin-right: 30px;
+    align-content: center;
     border: 3px solid #ff9800;
 }
 
@@ -78,15 +79,15 @@ section {
     background-color: #333;
 }
 
-#contact {
+#skills {
     background-color: #444;
 }
 
-#skills {
+#projects {
     background-color: #555;
 }
 
-#projects {
+#contact {
     background-color: #666;
 }
 
