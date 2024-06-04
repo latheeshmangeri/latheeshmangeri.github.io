@@ -91,6 +91,30 @@ section {
     background-color: #666;
 }
 
+.skills-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.skills-list ul li {
+    margin-bottom: 10px;
+}
+
+.skills-list ul li b {
+    display: inline-block;
+    width: 150px; /* Adjust as needed */
+}
+
+.skills-list ul li b::after {
+    content: ":";
+    margin-right: 5px;
+}
+
+.skills-list ul li:last-child {
+    margin-bottom: 0;
+}
+
 p {
     color: #ffffff;
     width: 200px; /* Adjust width as needed */
