@@ -111,9 +111,9 @@ footer {
     border-top: 1px solid #ff9800;
 }
 
-
 .skills-container {
     margin: 0 auto; /* Center the table horizontally */
+    width: fit-content; /* Adjust the container width based on content */
 }
 
 .skills-table {
