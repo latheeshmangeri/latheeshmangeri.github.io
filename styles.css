@@ -22,9 +22,9 @@ header {
 
 .profile-pic {
     border-radius: 50%;
-    width: 60px; /* Smaller profile picture */
-    height: 60px;
-    margin-right: 20px;
+    width:90px; /* Smaller profile picture */
+    height: 90px;
+    margin-right: 30px;
     border: 2px solid #ffeb3b;
 }
 
