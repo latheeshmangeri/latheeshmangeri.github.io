@@ -15,7 +15,7 @@ header {
 }
 
 .header-content {
-    display: flex;
+    display: table-cell;
     align-items: center;
     justify-content: center;
 }
