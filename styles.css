@@ -73,7 +73,7 @@ main {
 section {
     margin: 2em 0;
     border-radius: 8px;
-    padding: 40px 20px; /* Add padding to all sections */
+    padding: 20px 0px; /* Add padding to all sections */
     box-sizing: border-box;
     color: #ff9800;
 }
