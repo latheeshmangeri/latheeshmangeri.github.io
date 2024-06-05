@@ -73,7 +73,7 @@ main {
 section {
     margin: 2em 0;
     border-radius: 8px;
-    padding: 20px 0px; /* Add padding to all sections */
+    padding: 1em;
     box-sizing: border-box;
     color: #ff9800;
 }
@@ -81,19 +81,16 @@ section {
 #bio {
     background-color: #333;
     border: 1px solid #ff9800;
-    margin-inline: 40px;
 }
 
 #skills {
     background-color: #444;
     border: 1px solid #ff9800;
-    margin-inline: 40px;
 }
 
 #projects {
     background-color: #555;
     border: 1px solid #ff9800;
-    margin-inline: 40px;
 }
 
 #contact {
