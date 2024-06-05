@@ -113,7 +113,7 @@ footer {
 
 .skills-container {
     margin: 0 auto; /* Center the table horizontally */
-    width: fit-content; /* Adjust the container width based on content */
+    width: 50px; /* Adjust the container width based on content */
 }
 
 .skills-table {
