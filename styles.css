@@ -78,7 +78,7 @@ section {
 #bio {
     background-color: #333;
     border: 1px solid #ff9800;
-    margin-inline: 300px;
+    margin-block: 300px;
 }
 
 #skills {
@@ -96,7 +96,7 @@ section {
 #contact {
     background-color: #666;
     border: 1px solid #ff9800;
-    margin-inline: 50px;
+    margin-inline: 350px;
 }
 
 p {
@@ -129,7 +129,7 @@ footer {
     padding: 8px;
     border-top: 1px solid #000000; /* Black border */
     text-align: left; /* Align text to the left */
-    width: 140px;
+    width: 200px;
 }
 
 .skills-table tr:first-child td {
