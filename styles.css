@@ -81,25 +81,21 @@ section {
 #bio {
     background-color: #333;
     border: 1px solid #ff9800;
-    margin-inline: 20px;
 }
 
 #skills {
     background-color: #444;
     border: 1px solid #ff9800;
-    margin-inline: 30px;
 }
 
 #projects {
     background-color: #555;
     border: 1px solid #ff9800;
-    margin-inline: 40px;
 }
 
 #contact {
     background-color: #666;
     border: 1px solid #ff9800;
-    margin-inline: 50px;
 }
 
 
