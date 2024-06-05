@@ -124,6 +124,7 @@ footer {
 .skills-table td {
     padding: 8px;
     border-top: 1px solid #000000; /* Black border */
+    text-align: left;
 }
 
 .skills-table tr:first-child td {
