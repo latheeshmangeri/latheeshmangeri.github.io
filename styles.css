@@ -113,7 +113,7 @@ footer {
 .skills-container {
     display: flex;
     justify-content: center; /* Center the table horizontally */
-    width: 100%; /* Full width of the container */
+    width: 60%; /* Full width of the container */
 }
 
 .skills-table {
