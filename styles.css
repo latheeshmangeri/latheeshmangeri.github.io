@@ -91,6 +91,7 @@ section {
 #projects {
     background-color: #555;
     border: 1px solid #ff9800;
+    margin-inline: 100px;
 }
 
 #contact {
