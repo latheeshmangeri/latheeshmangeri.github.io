@@ -84,11 +84,13 @@ section {
 #skills {
     background-color: #444;
     border: 1px solid #ff9800;
+    margin-inline: 250px;
 }
 
 #projects {
     background-color: #555;
     border: 1px solid #ff9800;
+    margin-inline: 200px;
 }
 
 #contact {
