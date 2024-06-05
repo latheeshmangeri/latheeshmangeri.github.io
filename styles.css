@@ -117,6 +117,7 @@ footer {
     display: flex;
     justify-content: center; /* Center the table horizontally */
     width: 100%; /* Full width of the container */
+    margin-inline: 10px
 }
 
 .skills-table {
