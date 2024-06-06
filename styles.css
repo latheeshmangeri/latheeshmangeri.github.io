@@ -103,10 +103,6 @@ section {
     margin-inline: 100px;
 }
 
-
-
-
-
 p {
     color: #ffffff;
     width: 200px;
@@ -167,12 +163,16 @@ footer {
     /* White color */
 }
 
-
-
-
-
-
 @media (max-width: 768px) {
+    nav ul li a {
+        text-decoration: none;
+        color: #ff9800;
+        font-weight: bold;
+        padding: 1em;
+        display: block;
+    }
+    
+
     #bio {
         background-color: #333;
         border: 1px solid #ff9800;
@@ -196,6 +196,13 @@ footer {
 }
 
 @media (max-width: 480px) {
+    nav ul li a {
+        text-decoration: none;
+        color: #ff9800;
+        font-weight: bold;
+        padding: 1em;
+        display: block;
+    }
     #bio {
         background-color: #333;
         border: 1px solid #ff9800;
