@@ -36,36 +36,36 @@ header h1 {
     font-size: 2.5em;
 }
 
-.navbar {
-    position: fixed;
-top: 50%;
-right: 0;
-transform: translateY(-50%);
-background-color: #000; /* Dark background */
-padding: 10px;
-border-radius: 10px 0 0 10px;
+nav {
+    background-color: #1e1e1e;
+    justify-content: center;
+    border-bottom: 1px solid #ff9800;
+    padding: 0px 0;
 }
 
-
-
-.navbar ul {
-    list-style-type: none;
+nav ul {
+    list-style: none;
     padding: 0;
     margin: 0;
-}
-.navbar li{
-    margin: 10px 0;
-}
-.navbar a {
-    text-decoration: none;
-    color: #ff9800; /* Orange color */
-    font-size: 18px;
-    transition: color 0.3s, transform 0.3s;
+    text-align: center;
 }
 
-.navbar a:hover {
-    color: #fff; /* White color on hover */
-    transform: scale(1.1); /* Scale animation */
+nav ul li {
+    display: inline;
+    margin: 50 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ff9800;
+    font-weight: bold;
+    padding: 1em;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #333;
+    border-radius: 8px;
 }
 
 main {
@@ -75,30 +75,32 @@ main {
 section {
     margin: 2em 0;
     border-radius: 8px;
+    padding: 1em;
     color: #ff9800;
-    padding: 40px 20px; /* Add padding to all sections */
-    box-sizing: border-box;
 }
 
 #bio {
     background-color: #333;
     border: 1px solid #ff9800;
+    margin-inline: 250px;
 }
 
 #skills {
     background-color: #444;
     border: 1px solid #ff9800;
+    margin-inline: 300px;
 }
 
 #projects {
     background-color: #555;
     border: 1px solid #ff9800;
+    margin-inline: 350px;
 }
 
 #contact {
     background-color: #666;
     border: 1px solid #ff9800;
-    margin-inline: 50px;
+    margin-inline: 100px;
 }
 
 
@@ -165,29 +167,54 @@ footer {
     /* White color */
 }
 
-/* Responsive design adjustments */
+
+
+
+
+
 @media (max-width: 768px) {
-    section {
-        padding: 30px 15px; /* Reduce padding on smaller screens */
+    #bio {
+        background-color: #333;
+        border: 1px solid #ff9800;
     }
-    .skills-table td {
-        padding: 10px 15px; /* Reduce cell padding on smaller screens */
+    
+    #skills {
+        background-color: #444;
+        border: 1px solid #ff9800;
     }
-    .navbar {
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: auto;
-        transform: none;
-        border-radius: 0 0 10px 10px;
+    
+    #projects {
+        background-color: #555;
+        border: 1px solid #ff9800;
+    }
+    
+    #contact {
+        background-color: #666;
+        border: 1px solid #ff9800;
+        margin-inline: 50px;
     }
 }
 
 @media (max-width: 480px) {
-    section {
-        padding: 20px 10px; /* Further reduce padding on very small screens */
+    #bio {
+        background-color: #333;
+        border: 1px solid #ff9800;
     }
-    .skills-table td {
-        padding: 8px 10px; /* Further reduce cell padding on very small screens */
+    
+    #skills {
+        background-color: #444;
+        border: 1px solid #ff9800;
     }
+    
+    #projects {
+        background-color: #555;
+        border: 1px solid #ff9800;
+    }
+    
+    #contact {
+        background-color: #666;
+        border: 1px solid #ff9800;
+        margin-inline: 50px;
+    }
+
 }
