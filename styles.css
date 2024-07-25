@@ -80,7 +80,7 @@ section .container {
 }
 
 h2 {
-    border-bottom: 2px solid #00eaff;
+    /* border-bottom: 2px solid #00eaff;*/
     padding-bottom: 10px;
     margin-bottom: 0px;
     color: #fff;
