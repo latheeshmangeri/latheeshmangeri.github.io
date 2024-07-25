@@ -88,7 +88,7 @@ h2 {
 
 /* Skills */
 .skill-category {
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     transition: transform 0.3s ease-in-out;
     padding: 10px;
     border-radius: 5px;
@@ -97,6 +97,8 @@ h2 {
 .skill-heading {
     display: flex;
     align-items: center;
+    margin-top: -10px;
+    margin-bottom: -10px;
 }
 
 .skill-heading h3 {
