@@ -105,7 +105,6 @@ h2::after {
     0% {
         width: 0;
     }
-
     100% {
         width: 100%;
     }
@@ -300,7 +299,7 @@ footer {
     .image-collage img {
         width: calc(20% - 10px);
     }
-
+    
 }
 
 @media (max-width: 480px) {
@@ -340,7 +339,6 @@ footer {
     .contact-info p {
         font-size: 1em;
     }
-
     .achievements-list li .icon {
         color: #00eaff;
         /* Neon accent color */
@@ -350,4 +348,3 @@ footer {
         font-size: 1.5em;
     }
 }
-
