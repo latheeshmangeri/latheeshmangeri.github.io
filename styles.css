@@ -1,7 +1,7 @@
 .skill-category {
-    margin-bottom: 20px;
+    margin-bottom: 1px;
     transition: transform 0.3s ease-in-out;
-    padding: 10px;
+    padding: 1px;
     border-radius: 5px;
     background: rgba(0, 234, 255, 0.1); /* Neon hover effect */
 }
@@ -15,11 +15,11 @@
     font-size: 1.5em;
     margin: 5;
     color: #00eaff; /* Neon accent text color */
-    min-width: 100px; /* Minimum width to align headings */
+    min-width: 10px; /* Minimum width to align headings */
 }
 
 .skill-heading p {
-    margin: 0 0 0 10px; /* Margin to separate heading and values */
+    margin: 0 0 0 20px; /* Margin to separate heading and values */
     font-size: 1.2em;
 }
 
@@ -130,7 +130,7 @@ section .container {
 .project p {
     font-size: 1.2em;
     margin: 10px 0 0 0;
-    padding-left: 50; /* Margin adjustment to fit the padding */
+    padding-left: 500; /* Margin adjustment to fit the padding */
 }
 
 .project h3 a {
@@ -141,8 +141,13 @@ section .container {
 
 .project h3 a:hover {
     text-decoration: underline;
+    
 }
-
+.project:hover {
+    transform: scale(1.02);
+    background: rgba(0, 234, 255, 0.2);
+    /* Slightly more intense hover effect */
+}
 .achievements-list {
     list-style: none;
     padding: 0;
