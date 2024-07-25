@@ -1,14 +1,15 @@
 .skill-category {
-    margin-bottom: 1px;
+    margin-bottom: 0px;
     transition: transform 0.3s ease-in-out;
     padding: 1px;
     border-radius: 5px;
-    background: rgba(0, 234, 255, 0.1); /* Neon hover effect */
 }
 
 .skill-heading {
     display: flex;
     align-items: center;
+    margin-top: -15px;
+    margin-bottom: -10px;
 }
 
 .skill-heading h3 {
@@ -19,12 +20,12 @@
 }
 
 .skill-heading p {
-    margin: 0 0 0 20px; /* Margin to separate heading and values */
+    margin: 10px 0 0 20px; /* Margin to separate heading and values */
     font-size: 1.2em;
 }
 
 .skill-category:hover {
-    transform: scale(1.02);
+    transform: scale(1.0);
     background: rgba(0, 234, 255, 0.2); /* Slightly more intense hover effect */
 }
 
@@ -130,7 +131,7 @@ section .container {
 .project p {
     font-size: 1.2em;
     margin: 10px 0 0 0;
-    padding-left: 500; /* Margin adjustment to fit the padding */
+    padding-left: 50; /* Margin adjustment to fit the padding */
 }
 
 .project h3 a {
