@@ -131,7 +131,7 @@ section .container {
 .project p {
     font-size: 1.2em;
     margin: 10px 0 0 0;
-    padding-left: 50; /* Margin adjustment to fit the padding */
+    padding-left: 50px; /* Margin adjustment to fit the padding */
 }
 
 .project h3 a {
