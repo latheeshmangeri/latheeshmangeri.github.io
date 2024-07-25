@@ -1,112 +1,167 @@
-<meta http-equiv='cache-control' content='no-cache'> 
-<meta http-equiv='expires' content='0'> 
-<meta http-equiv='pragma' content='no-cache'>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Latheesh Mangeri - Portfolio</title>
+    <title>Latheesh Mangeri - Data Science Engineer</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <div class="header-content">
-            <img src="profile.jpg" alt="Profile Picture" class="profile-pic">
-            <div>
+        <div class="container">
+            <img src="profile.jpg" alt="Latheesh Mangeri" class="profile-img">
+            <div class="header-text">
                 <h1>Latheesh Mangeri</h1>
-                <p>Welcome to my portfolio!</p>
+                <p>Detail-oriented Data Science Engineer</p>
+                <nav>
+                    <ul>
+                        <li><a href="#about-me">About Me</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#publications">Publications</a></li>
+                        <li><a href="#achievements">Achievements</a></li>
+                        <li><a href="#contact-me">Contact Me</a></li>
+                    </ul>
+                </nav>
             </div>
         </div>
     </header>
-    <nav class="navbar">
-        <ul>
-            <li><a href="#bio">Bio</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-    <main>
-        <section id="bio" align="center">
-            <h2>Bio</h2>
-            <p>A student at University of Texas Arlington.<br>
-                💻 Major is Computer Science and Technology</p>
-        </section>
-        
-        <section id="skills" align="center">
-            <h2>Skills</h2>
-            <div class="skills-container">
-                <table class="skills-table">
-                    <tr>
-                        <td><b>Languages</b></td>
-                        <td>Python, C, Java, JavaScript</td>
-                    </tr>
-                    <tr>
-                        <td><b>Skills</b></td>
-                        <td>Prompt Engineering, Selenium, Flask, <br>
-                            Numpy, Pandas, Tensorflow, Scikit-Learn, <br>
-                            Open-CV, NLP</td>
-                    </tr>
-                    <tr>
-                        <td><b>Data science</b></td>
-                        <td>Probability & Statistics, Excel</td>
-                    </tr>
-                    <tr>
-                        <td><b>Data Visualization</b></td>
-                        <td>Matplotlib, Seaborn</td>
-                    </tr>
-                    <tr>
-                        <td><b>Front-End</b></td>
-                        <td>HTML, CSS</td>
-                    </tr>
-                    <tr>
-                        <td><b>Back-End</b></td>
-                        <td>MySQL</td>
-                    </tr>
-                    <tr>
-                        <td><b>Softwares</b></td>
-                        <td>Android Studio, Eclipse, Pycharm, VS Code</td>
-                    </tr>
-                </table>
+
+    <section id="about-me">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Detail-oriented Data Science Engineer with expertise in machine learning, data analysis, and software development. Passionate about leveraging data to drive decision-making and solve complex problems.</p>
+        </div>
+    </section>
+
+<section id="skills">
+    <div class="container">
+        <h2>Skills</h2>
+        <div class="skill-category" data-aos="fade-up">
+            <div class="skill-heading">
+                <h3>Programming Languages:</h3>
+                <p>Python, SQL, C, Java</p>
             </div>
-        </section>
-        
-        
-        <section id="projects" align="center">
-            <h2>Projects</h2>
+        </div>
+        <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+            <div class="skill-heading">
+                <h3>Scripting Languages:</h3>
+                <p>HTML, CSS, JavaScript, PHP</p>
+            </div>
+        </div>
+        <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+            <div class="skill-heading">
+                <h3>Libraries:</h3>
+                <p>Selenium, Flask, Numpy, Pandas, TensorFlow, Scikit-Learn, Open-CV, NLP, LangChain</p>
+            </div>
+        </div>
+        <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
+            <div class="skill-heading">
+                <h3>Machine Learning:</h3>
+                <p>Regression, Classification, Tree Methods, Clustering, Collaborative Filtering</p>
+            </div>
+        </div>
+        <div class="skill-category" data-aos="fade-up" data-aos-delay="400">
+            <div class="skill-heading">
+                <h3>Data Science:</h3>
+                <p>Probability and Statistics, Excel</p>
+            </div>
+        </div>
+        <div class="skill-category" data-aos="fade-up" data-aos-delay="500">
+            <div class="skill-heading">
+                <h3>Data Visualization:</h3>
+                <p>Matplotlib, Seaborn, Tableau, Power BI</p>
+            </div>
+        </div>
+        <div class="skill-category" data-aos="fade-up" data-aos-delay="600">
+            <div class="skill-heading">
+                <h3>Software:</h3>
+                <p>Android Studio, Eclipse, PyCharm, VS Code</p>
+            </div>
+        </div>
+        <div class="skill-category" data-aos="fade-up" data-aos-delay="700">
+            <div class="skill-heading">
+                <h3>Other Skills:</h3>
+                <p>Prompt Engineering</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="projects">
+    <div class="container">
+        <h2>Projects</h2>
+        <div class="project" data-aos="fade-left">
+            <h3><a href="https://yourlink.com/attendance-management" target="_blank">Attendance Management using Face Recognition System</a></h3>
+            <p>OpenCV - Developed an attendance management system using face detection for accurate and automated student tracking.</p>
+        </div>
+        <div class="project" data-aos="fade-left" data-aos-delay="100">
+            <h3><a href="https://yourlink.com/phishing-detection" target="_blank">Phishing Detection</a></h3>
+            <p>Data Science - Developed a machine learning model to detect phishing websites with high accuracy.</p>
+        </div>
+        <div class="project" data-aos="fade-left" data-aos-delay="200">
+            <h3><a href="https://yourlink.com/emotion-detection" target="_blank">Emotion Detection</a></h3>
+            <p>OpenCV + NLP - Developed an emotion detection system to analyze facial expressions and textual sentiment.</p>
+        </div>
+        <div class="project" data-aos="fade-left" data-aos-delay="300">
+            <h3><a href="https://yourlink.com/chat-bot" target="_blank">Chat Bot using LangChain</a></h3>
+            <p>LangChain - Developed a chatbot with advanced NLP capabilities for improved user engagement.</p>
+        </div>
+        <div class="project" data-aos="fade-left" data-aos-delay="400">
+            <h3><a href="https://yourlink.com/library-management" target="_blank">Library Management</a></h3>
+            <p>Web Development - Developed a web-based Library Management System with real-time updates.</p>
+        </div>
+    </div>
+</section>
+
+
+    <section id="publications">
+        <div class="container">
+            <h2>Publications</h2>
             <ul>
-                <li><a href="https://github.com/latheeshmangeri/HealthPredictor">HealthPredictor</a> - Health Predicts</li>
-                <li><a href="https://github.com/latheeshmangeri/Phishing-Detection">Phishing-Detection</a> - Detect Phishing</li>
-                <!-- Add more projects here -->
+                <li>“Chest Diseases Prediction from X-ray Images using CNN Models: A Study” - IJACSA, 2021.</li>
             </ul>
-            </section>
+        </div>
+    </section>
 
-            <section id="contact" align="center">
-                <h2>Contact</h2>
-                <div align="center"> 
-                    <a href="mailto:latheeshmangeri369@gmail.com">
-                        <img src="https://img.shields.io/badge/Gmail-ffffff?style=for-the-badge&logo=gmail&logoColor=red"/>
-                    </a>
-                      
-                    <a href="https://linkedin.com/in/latheeshmangeri">
-                        <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-                    </a>
-                      
-                    <a href="https://github.com/latheeshmangeri/">
-                         <img src="https://img.shields.io/badge/Github-222222?style=for-the-badge&logo=github&logoColor=white"/>
-                    </a>
-                      
-                    <a href="https://drive.google.com/file/d/1JD6NMVJGVbUSJ4Bs7L1hdXeDDAjga1Oj/view?usp=drive_link">
-                         <img src="https://img.shields.io/badge/Resume-018EF5?style=for-the-badge&logo=readdotcv&logoColor=white"/> 
-                    </a>    
-                    </div>
-            </section>
+    <section id="achievements">
+        <div class="container">
+            <h2>Achievements</h2>
+            <ul class="achievements-list" data-aos="fade-up">
+                <li><span class="icon">&#10004;</span> Member of IEEE and Computer Society of India (CSI)</li>
+                <li><span class="icon">&#10004;</span> Completed Introduction to Cybersecurity Tools and Cyber Attacks by Coursera</li>
+                <li><span class="icon">&#10004;</span> Python Full Course Bootcamp by Udemy</li>
+                <li><span class="icon">&#10004;</span> Volunteer in Centre for Social Action (CSA), Christ University</li>
+                <li><span class="icon">&#10004;</span> Certification in “Data Analytics Essentials” by Cisco Networking Academy</li>
+                <li><span class="icon">&#10004;</span> Internship at TechCiti on FullStack Web Development</li>
+            </ul>
+        </div>
+    </section>
 
-    </main>
+ <section id="contact-me">
+    <div class="container">
+        <h2>Contact Me</h2>
+        <div class="contact-info" data-aos="fade-up">
+            <p><strong>Phone:</strong> <a href="tel:+16827124818">+1 (682) 712-4818</a></p>
+            <p><strong>Email:</strong> <a href="mailto:latheeshmangeri369@gmail.com">latheeshmangeri369@gmail.com</a></p>
+            <p><strong>Resume:</strong> <a href="resume.pdf" target="_blank">Download Resume</a></p>
+            <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/latheeshmangeri" target="_blank">View LinkedIn Profile</a></p>
+            <p><strong>GitHub:</strong> <a href="https://github.com/latheeshmangeri" target="_blank">View GitHub Profile</a></p>
+        </div>
+    </div>
+</section>
+
+
     <footer>
-        <p>&copy; 2024 Latheesh Mangeri</p>
+        <div class="container">
+            <p>&copy; 2024 Latheesh Mangeri. All rights reserved.</p>
+        </div>
     </footer>
-    <script src="script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
