@@ -225,7 +225,7 @@ h2 {
 }
 
 .image-collage img {
-    width: calc(50% - 10px);
+    width: calc(25% - 10px);
     border-radius: 5px;
     transition: transform 0.3s ease-in-out;
 }
