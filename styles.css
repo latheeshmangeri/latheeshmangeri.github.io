@@ -1,233 +1,196 @@
+.skill-category {
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+    padding: 10px;
+    border-radius: 5px;
+    background: rgba(0, 234, 255, 0.1); /* Neon hover effect */
+}
+
+.skill-heading {
+    display: flex;
+    align-items: center;
+}
+
+.skill-heading h3 {
+    font-size: 1.5em;
+    margin: 5;
+    color: #00eaff; /* Neon accent text color */
+    min-width: 100px; /* Minimum width to align headings */
+}
+
+.skill-heading p {
+    margin: 0 0 0 10px; /* Margin to separate heading and values */
+    font-size: 1.2em;
+}
+
+.skill-category:hover {
+    transform: scale(1.02);
+    background: rgba(0, 234, 255, 0.2); /* Slightly more intense hover effect */
+}
+
+h2 {
+    border-bottom: 2px solid #00eaff; /* Neon accent border */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #121212;
-    color: #f5f5f5;
+    color: #fff;
+    background: linear-gradient(to right, #1a1a1a, #2b2b2b);
 }
-
 
 header {
-    background-color: #1e1e1e;
-    color: #ff9800;
-    padding: 1em;
-    text-align: center;
-    border-bottom: 1px solid #ff9800;
-}
-
-.header-content {
     display: flex;
     align-items: center;
-    justify-content: center;
+    background: linear-gradient(to right, #0f0f0f, #2d2d2d);
+    color: #fff;
+    padding: 20px;
 }
 
-.profile-pic {
+header .container {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.profile-img {
     border-radius: 50%;
-    width: 150px;
-    /* Smaller profile picture */
-    height: 150px;
-    margin-right: 30px;
-    align-content: center;
-    border: 3px solid #ff9800;
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border: 5px solid #00eaff; /* Neon accent border */
+}
+
+.header-text {
+    text-align: center;
+    flex-grow: 1;
 }
 
 header h1 {
     margin: 0;
     font-size: 2.5em;
+    color: #00eaff; /* Neon accent text color */
 }
 
-nav {
-    background-color: #1e1e1e;
-    justify-content: center;
-    border-bottom: 1px solid #ff9800;
-    padding: 0px 0;
+header p {
+    font-size: 1.2em;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
-    margin: 0;
-    text-align: center;
 }
 
 nav ul li {
     display: inline;
-    margin: 50 15px;
+    margin: 0 15px;
 }
 
 nav ul li a {
+    color: #fff;
     text-decoration: none;
-    color: #ff9800;
-    font-weight: bold;
-    padding: 1em;
-    display: inline-block;
+    font-size: 1.2em;
+    transition: color 0.3s;
 }
 
 nav ul li a:hover {
-    background-color: #333;
-    border-radius: 8px;
-}
-
-main {
-    padding: 2em;
+    color: #00eaff; /* Neon accent on hover */
 }
 
 section {
-    margin: 2em 0;
-    border-radius: 8px;
-    padding: 1em;
-    color: #ff9800;
+    padding: 10px 0;
+    background: linear-gradient(to right, #1e1e1e, #2b2b2b);
 }
 
-#bio {
-    background-color: #333;
-    border: 1px solid #ff9800;
-    margin-inline: 250px;
+section .container {
+    width: 80%;
+    margin: 0 auto;
 }
 
-#skills {
-    background-color: #444;
-    border: 1px solid #ff9800;
-    margin-inline: 300px;
+
+.project {
+    margin-bottom: 10px;
+    transition: transform 0.3s ease-in-out;
+    padding-left: 0px; /* Added left padding for double tab space */
+    position: relative;
 }
 
-#projects {
-    background-color: #555;
-    border: 1px solid #ff9800;
-    margin-inline: 100px;
+.project h3 {
+    font-size: 1.5em;
+    margin: 0;
+    /*color: #00eaff;  Neon accent text color */
 }
 
-#contact {
-    background-color: #666;
-    border: 1px solid #ff9800;
-    margin-inline: 350px;
+.project p {
+    font-size: 1.2em;
+    margin: 10px 0 0 0;
+    padding-left: 50; /* Margin adjustment to fit the padding */
 }
 
-p {
-    color: #ffffff;
-    width: 200px;
-    /* Adjust width as needed */
-    display: inline;
+.project h3 a {
+    color: #00eaff; /* Neon accent text color */
+    text-decoration: none;
+    transition: color 0.3s;
 }
 
+.project h3 a:hover {
+    text-decoration: underline;
+}
+
+.achievements-list {
+    list-style: none;
+    padding: 0;
+}
+
+.achievements-list li {
+    margin-bottom: 15px;
+    font-size: 1.2em;
+    position: relative;
+    padding-left: 30px;
+}
+
+.achievements-list li .icon {
+    color: #00eaff; /* Neon accent color */
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 1.5em;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-info p {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.contact-info a {
+    color: #00eaff; /* Neon accent color */
+    text-decoration: none;
+    transition: color 0.3s, text-decoration 0.3s;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.contact-info strong {
+    color: #fff; /* White color for labels */
+}
 
 footer {
-    background-color: #1e1e1e;
+    background: linear-gradient(to right, #0f0f0f, #1a1a1a);
+    color: #fff;
+    padding: 20px;
     text-align: center;
-    color: #ff9800;
-    padding: 1em;
-    border-top: 1px solid #ff9800;
-}
-
-.skills-container {
-    display: flex;
-    justify-content: center;
-    /* Center the table horizontally */
-    width: 100%;
-    /* Full width of the container */
-    margin-inline: 10px
-}
-
-.skills-table {
-    border-collapse: separate;
-    border-spacing: 0 10px;
-    /* Adjust the vertical spacing as needed */
-}
-
-.skills-table td {
-    padding: 8px;
-    border-top: 1px solid #000000;
-    /* Black border */
-    text-align: left;
-    /* Align text to the left */
-    width: 200px;
-}
-
-.skills-table tr:first-child td {
-    border-top: none;
-    /* Remove top border from the first row */
-}
-
-.skills-table tr:last-child td {
-    border-bottom: none;
-    /* Remove bottom border from the last row */
-}
-
-.skills-table b {
-    color: #ff9800;
-    /* Orange color */
-}
-
-.skills-table td:nth-child(2) {
-    color: #ffffff;
-    /* White color */
-}
-
-@media (max-width: 768px) {
-    nav ul li a {
-        text-decoration: none;
-        color: #ff9800;
-        font-weight: bold;
-        padding: 1em;
-        display: block;
-    }
-    
-
-    #bio {
-        background-color: #333;
-        border: 1px solid #ff9800;
-        margin-inline: 0px;
-    }
-    
-    #skills {
-        background-color: #444;
-        border: 1px solid #ff9800;
-        margin-inline: 0px;
-    }
-    
-    #projects {
-        background-color: #555;
-        border: 1px solid #ff9800;
-        margin-inline: 0px;
-    }
-    
-    #contact {
-        background-color: #666;
-        border: 1px solid #ff9800;
-        margin-inline: 50px;
-    }
-}
-
-@media (max-width: 480px) {
-    nav ul li a {
-        text-decoration: none;
-        color: #ff9800;
-        font-weight: bold;
-        padding: 1em;
-        display: block;
-    }
-    #bio {
-        background-color: #333;
-        border: 1px solid #ff9800;
-        margin-inline: 0px;
-    }
-    
-    #skills {
-        background-color: #444;
-        border: 1px solid #ff9800;
-        margin-inline: 0px;
-    }
-    
-    #projects {
-        background-color: #555;
-        border: 1px solid #ff9800;
-        margin-inline: 0px;
-    }
-    
-    #contact {
-        background-color: #666;
-        border: 1px solid #ff9800;
-        margin-inline: 50px;
-    }
-
 }
