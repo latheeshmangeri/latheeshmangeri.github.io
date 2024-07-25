@@ -273,8 +273,9 @@ footer {
     }
 
     .image-collage img {
-        width: calc(100% - 10px);
+        width: calc(20% - 10px);
     }
+    
 }
 
 @media (max-width: 480px) {
@@ -313,5 +314,13 @@ footer {
 
     .contact-info p {
         font-size: 1em;
+    }
+    .achievements-list li .icon {
+        color: #00eaff;
+        /* Neon accent color */
+        position: absolute;
+        left: 0;
+        top: 0;
+        font-size: 1.5em;
     }
 }
