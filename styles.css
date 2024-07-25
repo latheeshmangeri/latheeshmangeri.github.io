@@ -119,9 +119,9 @@ h2 {
 
 /* Projects */
 .project {
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     transition: transform 0.3s ease-in-out;
-    padding: 10px;
+    padding: 0px;
 }
 
 .project h3 {
@@ -131,7 +131,7 @@ h2 {
 
 .project p {
     font-size: 1.2em;
-    margin: 10px 0 0 0;
+    margin: 5px 5px 0px 50px;
 }
 
 .project h3 a {
@@ -300,6 +300,7 @@ footer {
 
     .project p {
         font-size: 1em;
+            margin: 0px 0px 0px 50px;
     }
 
     .achievements-list li {
