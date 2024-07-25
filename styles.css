@@ -1,41 +1,4 @@
-.skill-category {
-    margin-bottom: 0px;
-    transition: transform 0.3s ease-in-out;
-    padding: 1px;
-    border-radius: 5px;
-}
-
-.skill-heading {
-    display: flex;
-    align-items: center;
-    margin-top: -15px;
-    margin-bottom: -10px;
-}
-
-.skill-heading h3 {
-    font-size: 1.5em;
-    margin: 5;
-    color: #00eaff; /* Neon accent text color */
-    min-width: 10px; /* Minimum width to align headings */
-}
-
-.skill-heading p {
-    margin: 10px 0 0 20px; /* Margin to separate heading and values */
-    font-size: 1.2em;
-}
-
-.skill-category:hover {
-    transform: scale(1.0);
-    background: rgba(0, 234, 255, 0.2); /* Slightly more intense hover effect */
-}
-
-h2 {
-    border-bottom: 2px solid #00eaff; /* Neon accent border */
-    padding-bottom: 10px;
-    margin-bottom: 20px;
-    color: #fff;
-}
-
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -65,7 +28,7 @@ header .container {
     width: 160px;
     height: 160px;
     object-fit: cover;
-    border: 5px solid #00eaff; /* Neon accent border */
+    border: 5px solid #00eaff;
 }
 
 .header-text {
@@ -76,7 +39,7 @@ header .container {
 header h1 {
     margin: 0;
     font-size: 2.5em;
-    color: #00eaff; /* Neon accent text color */
+    color: #00eaff;
 }
 
 header p {
@@ -86,10 +49,12 @@ header p {
 nav ul {
     list-style: none;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 nav ul li {
-    display: inline;
     margin: 0 15px;
 }
 
@@ -101,11 +66,11 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #00eaff; /* Neon accent on hover */
+    color: #00eaff;
 }
 
 section {
-    padding: 10px 0;
+    padding: 20px 0;
     background: linear-gradient(to right, #1e1e1e, #2b2b2b);
 }
 
@@ -114,41 +79,75 @@ section .container {
     margin: 0 auto;
 }
 
+h2 {
+    border-bottom: 2px solid #00eaff;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    color: #fff;
+}
 
-.project {
-    margin-bottom: 10px;
+/* Skills */
+.skill-category {
+    margin-bottom: 20px;
     transition: transform 0.3s ease-in-out;
-    padding-left: 0px; /* Added left padding for double tab space */
-    position: relative;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.skill-heading {
+    display: flex;
+    align-items: center;
+}
+
+.skill-heading h3 {
+    font-size: 1.5em;
+    margin: 0;
+    color: #00eaff;
+}
+
+.skill-heading p {
+    margin: 10px 0 0 20px;
+    font-size: 1.2em;
+}
+
+.skill-category:hover {
+    transform: scale(1.02);
+    background: rgba(0, 234, 255, 0.2);
+}
+
+/* Projects */
+.project {
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+    padding: 10px;
 }
 
 .project h3 {
     font-size: 1.5em;
     margin: 0;
-    /*color: #00eaff;  Neon accent text color */
 }
 
 .project p {
     font-size: 1.2em;
     margin: 10px 0 0 0;
-    padding-left: 50px; /* Margin adjustment to fit the padding */
 }
 
 .project h3 a {
-    color: #00eaff; /* Neon accent text color */
+    color: #00eaff;
     text-decoration: none;
     transition: color 0.3s;
 }
 
 .project h3 a:hover {
     text-decoration: underline;
-    
 }
+
 .project:hover {
     transform: scale(1.02);
     background: rgba(0, 234, 255, 0.2);
-    /* Slightly more intense hover effect */
 }
+
+/* Achievements */
 .achievements-list {
     list-style: none;
     padding: 0;
@@ -162,13 +161,14 @@ section .container {
 }
 
 .achievements-list li .icon {
-    color: #00eaff; /* Neon accent color */
+    color: #00eaff;
     position: absolute;
     left: 0;
     top: 0;
     font-size: 1.5em;
 }
 
+/* Contact Info */
 .contact-info {
     display: flex;
     flex-direction: column;
@@ -181,7 +181,7 @@ section .container {
 }
 
 .contact-info a {
-    color: #00eaff; /* Neon accent color */
+    color: #00eaff;
     text-decoration: none;
     transition: color 0.3s, text-decoration 0.3s;
 }
@@ -191,15 +191,9 @@ section .container {
 }
 
 .contact-info strong {
-    color: #fff; /* White color for labels */
+    color: #fff;
 }
 
-footer {
-    background: linear-gradient(to right, #0f0f0f, #1a1a1a);
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-}
 /* Publications */
 .publication {
     margin-bottom: 20px;
@@ -211,7 +205,7 @@ footer {
 }
 
 .publication h3 a {
-    color: #00eaff; /* Neon accent color */
+    color: #00eaff;
     text-decoration: none;
     transition: color 0.3s;
 }
@@ -236,4 +230,85 @@ footer {
 
 .image-collage img:hover {
     transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    background: linear-gradient(to right, #0f0f0f, #1a1a1a);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    header .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile-img {
+        width: 120px;
+        height: 120px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .skill-heading {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .skill-heading p {
+        margin: 10px 0 0 0;
+    }
+
+    .contact-info {
+        gap: 10px;
+    }
+
+    .image-collage img {
+        width: calc(100% - 10px);
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    header p {
+        font-size: 1em;
+    }
+
+    .skill-heading h3 {
+        font-size: 1.2em;
+    }
+
+    .skill-heading p {
+        font-size: 1em;
+    }
+
+    .project h3 {
+        font-size: 1.2em;
+    }
+
+    .project p {
+        font-size: 1em;
+    }
+
+    .achievements-list li {
+        font-size: 1em;
+    }
+
+    .achievements-list li .icon {
+        font-size: 1.2em;
+    }
+
+    .contact-info p {
+        font-size: 1em;
+    }
 }
