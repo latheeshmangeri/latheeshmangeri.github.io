@@ -194,3 +194,40 @@ footer {
     padding: 20px;
     text-align: center;
 }
+/* Publications */
+.publication {
+    margin-bottom: 20px;
+}
+
+.publication h3 {
+    font-size: 1.2em;
+    color: #fff;
+}
+
+.publication h3 a {
+    color: #00eaff; /* Neon accent color */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.publication h3 a:hover {
+    text-decoration: underline;
+}
+
+/* Image Collage */
+.image-collage {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.image-collage img {
+    width: calc(50% - 10px);
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-collage img:hover {
+    transform: scale(1.05);
+}
